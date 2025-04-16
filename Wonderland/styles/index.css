@@ -1,0 +1,132 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+:root {
+ --principalcolor: #F2EFBD; 
+ --secondcolor: #732036;
+
+}
+a{
+    text-decoration: none;
+}
+header {
+    background-color: var(--principalcolor);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu nav {
+    display: flex;
+    gap: 35px;
+    margin: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--secondcolor);
+    font-size:20px;
+}
+
+header button {
+    background-color: var(--principalcolor);
+    box-shadow: 0px 0px 20px 0px var(var(--secondcolor));
+    left: 40%;
+    font-size: 20px;
+    top: 120px;
+    padding: 20px;
+    border: 0px solid rgb(0, 42, 90);
+    border-radius: 20px;
+    animation: try 3s infinite;
+}
+
+@keyframes try {
+    0%{
+        box-shadow: 0px 0px 20px 0px var(--secondcolor)
+    }
+    50% {
+        box-shadow: 0px 0px 20px 0px var(--secondcolor)
+    }
+    100% {
+        box-shadow: 0px 0px 20px 0px var(--secondcolor)
+    }
+    
+}
+.firts {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    
+}
+.hero   {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.hero h1 {
+    margin-bottom: 50px;
+    font-family: "Great Vibes";
+    font-size: 80px;
+}
+h2{
+    font-family: "Great Vibes";
+}
+.benefits {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%; 
+    margin: 0 auto;
+    align-items: center;
+
+}
+.imagenes {
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+}
+.news{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    overflow-y: scroll;
+    max-height: 900px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-left: 1px solid var(--secondcolor);
+    padding: 0 10%;
+
+}
+
+.benefits button {
+    background-color: var(--principalcolor);
+    box-shadow: 0px 0px 20px 0px var(var(--secondcolor));
+    left: 40%;
+    font-size: 20px;
+    top: 120px;
+    padding: 20px;
+    border: 0px solid rgb(0, 42, 90);
+    border-radius: 20px;
+    animation: try 3s infinite;
+}
+
+@keyframes try {
+    0%{
+        box-shadow: 0px 0px 20px 0px var(--secondcolor)
+    }
+    50% {
+        box-shadow: 0px 0px 20px 0px var(--secondcolor)
+    }
+    100% {
+        box-shadow: 0px 0px 20px 0px var(--secondcolor)
+    }
+}
